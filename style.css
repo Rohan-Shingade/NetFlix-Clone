@@ -56,3 +56,14 @@ nav button {
   width: 10px;
   margin-left: 10px;
 }
+/* ================================================================== */
+/* header main content */
+
+.headerContent {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 100px;
+}
