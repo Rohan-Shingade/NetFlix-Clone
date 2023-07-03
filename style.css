@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background: #000;
   color: #fff;
@@ -66,4 +68,107 @@ nav button {
   transform: translate(-50%, -50%);
   text-align: center;
   margin-top: 100px;
+}
+
+.headerContent h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 70px;
+  font-weight: 600;
+  max-width: 650px;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.headerContent h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.emailSignup {
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.emailSignup input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+
+
+.emailSignup button {
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+hr {
+  border: 3px solid rgb(45, 44, 44);
+  width: 100%;
+  margin: 0;
+}
+
+/* ================================================================== */
+/* Features */
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+  
+}
+
+.row  {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.textColumn {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.imgColumn {
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+.imgColumn img {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.features h2 {
+  font-size: 43px;
+  font-weight: 650;
+  margin-bottom: 20px;
+}
+
+.features p {
+  font-size: 18px;
+}
+
+/* ================================================================== */
+/* Freqestly Asked Questions */
+
+.faq {
+  padding: 10px 12%;
+  font-size: 18px;
+  text-align: center;
 }
