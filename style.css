@@ -195,10 +195,14 @@ hr {
   padding: 20px;
   font-size: 18px;
   font-weight: 500;
-  background: #303030;
+  background: #282727;
   margin-bottom: 2px;
   cursor: pointer;
   position: relative;
+}
+
+.accordion li label:hover {
+  background: #464646;
 }
 
 label::after {
@@ -213,15 +217,20 @@ input[type = "radio"] {
 }
 
 .accordion .content {
-  background: #303030;
+  background: #282727;
   text-align: left;
   padding: 0 20px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s, padding 0;
+  transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion .content:hover {
+  background: #464646;
 }
 
 .accordion input[type = "radio"]:checked + label + .content {
   max-height: 600px;
   padding: 30px 20px;
+  /* content: rotate(90deg); */
 }
