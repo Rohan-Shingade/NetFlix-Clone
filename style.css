@@ -83,7 +83,7 @@ nav button {
   margin-bottom: 20px;
 }
 
-.emailSignup {
+/* .emailSignup {
   background: #fff;
   border-radius: 4px;
   display: flex;
@@ -107,10 +107,30 @@ nav button {
   font-size: 16px;
   cursor: pointer;
   padding: 15px 30px;
+} */
+
+input {
+  background: #292828;
+  color:white;
+  padding: 10px 20px;
+  margin-top: 13px;
+  line-height: 1.2rem;
+  width: 33%;
+  border: 0.5px solid gray;
+  border-radius: 6px;
 }
 
+button {
+  background: red;
+  color: #fff;
+  padding: 10px 20px;
+  line-height: 1.2rem;
+  border-radius: 6px;
+}
+
+
 hr {
-  border: 3px solid rgb(45, 44, 44);
+  border: 3px solid #333;
   width: 100%;
   margin: 0;
 }
@@ -240,4 +260,127 @@ input[type = "radio"] {
 
 .accordion input[type = "radio"]:checked + label::after {
   transform: rotate(46deg)
+}
+
+.faq input {
+  margin-bottom: 50px;
+}
+
+/* ================================================================== */
+/* footer */
+
+
+/* .border {
+  border-top: 6px solid #333;
+} */
+.footer {
+  padding: 50px 15% 10px;
+  color: #777;
+}
+
+.footer h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer .col {
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.footer .col a {
+  display: block;
+  text-decoration: underline;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer .row {
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.footer .language-btn {
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* ================================================================== */
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+
+  .logo {
+    width: 100px;
+  }
+
+  nav button {
+    padding: 5px 10px;
+  }
+
+  nav .language-btn {
+    padding: 4px 8px;
+  }
+
+  .headerContent {
+    position: unset;
+    transform: none;
+    padding-top: 150px;
+  }
+
+  .headerContent h1 {
+    font-size: 30px;
+  }
+
+  .headerContent input , button {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .textColumn, .imgColumn {
+    flex-basis: 100%;
+    margin: 20px 0;
+  }
+
+  /* ================================================================== */
+
+  .features h2 {
+    font-size: 30px;
+  }
+  .features p {
+    font-size: 15px;
+  }
+
+  .row:nth-child(2), .row:nth-child(4) {
+    flex-direction: column-reverse;
+  }
+
+  /* ================================================================== */
+
+  .faq h2 {
+    font-size: 20px;
+  }
+
+  .accordion .content {
+    font-size: 14px;
+  }
+
+  .accordion li label {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  label::after {
+    font-size: 20px;
+  }
+
 }
