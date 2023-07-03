@@ -164,7 +164,9 @@ hr {
 
 /* ================================================================== */
 /* Freqently Asked Questions */
-
+.hidden {
+  display: none;
+}
 .faq {
   padding: 10px 12%;
   font-size: 18px;

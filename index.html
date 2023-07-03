@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="style.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <!-- ===================================================================== -->
@@ -121,7 +113,7 @@
       <ul class="accordion">
         <li>
           <input type="radio" name="accordion" id="first" />
-          <label for="first"> What is NetFlix ?</label>
+          <label class="label" for="first"> What is NetFlix ?</label>
           <div class="content">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -174,7 +166,7 @@
         <li>
           <input type="radio" name="accordion" id="fifth" />
           <label for="fifth"> what show I can watch ? </label>
-          <div class="content">
+          <div class="content hidden">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Aspernatur harum at rem sit tenetur. Accusamus nostrum facere
@@ -198,5 +190,7 @@
         </li>
       </ul>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
