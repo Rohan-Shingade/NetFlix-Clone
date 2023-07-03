@@ -193,7 +193,7 @@ hr {
   display: flex;
   align-items: center;
   padding: 20px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   background: #282727;
   margin-bottom: 2px;
@@ -207,9 +207,10 @@ hr {
 
 label::after {
   content: "+";
-  font-size: 34px;
+  font-size: 40px;
   position: absolute;
   right: 20px;
+  transition: transform 0.5s;
 }
 
 input[type = "radio"] {
@@ -232,5 +233,9 @@ input[type = "radio"] {
 .accordion input[type = "radio"]:checked + label + .content {
   max-height: 600px;
   padding: 30px 20px;
-  /* content: rotate(90deg); */
+}
+
+
+.accordion input[type = "radio"]:checked + label::after {
+  transform: rotate(46deg)
 }
