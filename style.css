@@ -76,7 +76,6 @@ nav button {
   line-height: 70px;
   font-weight: 600;
   max-width: 650px;
-  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
 .headerContent h3 {
@@ -99,7 +98,6 @@ nav button {
   outline: 0;
   margin-left: 20px;
 }
-
 
 .emailSignup button {
   background: #db0001;
@@ -219,6 +217,7 @@ input[type = "radio"] {
   padding: 0 20px;
   max-height: 0;
   overflow: hidden;
+  transition: max-height 0.5s, padding 0;
 }
 
 .accordion input[type = "radio"]:checked + label + .content {
